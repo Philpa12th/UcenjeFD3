@@ -1,0 +1,77 @@
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #a8e6cf, #dcedc1);
+            color: #2d6a4f;
+        }
+
+        header {
+            background: #52b788;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        nav {
+            background: #40916c;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: url('https://images.unsplash.com/photo-1526045612212-70caf35c14df') no-repeat center/cover;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            background: rgba(0,0,0,0.4);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        .content {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .card {
+            display: inline-block;
+            width: 250px;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 15px;
+            background: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #40916c;
+        }
+
+        footer {
+            background: #2d6a4f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }

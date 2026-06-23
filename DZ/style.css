@@ -1,0 +1,23 @@
+:root{
+    --primarna-boja:#2c3e50;
+    --pozadina:#ecf0f1;
+    --pozadina-container: #f5f2f2;
+
+}
+
+h1{
+  font-family: sans-serif;
+  color: #2c2c2c;
+  font-size: 100px;
+  text-align: center;
+}
+h2{
+  font-size: 50px;
+  text-align: center;
+  color: #7a7a7a;
+}
+u{
+  text-decoration: underline;
+  text-decoration-color:orange;
+  
+}

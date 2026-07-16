@@ -13,8 +13,8 @@ document.getElementById('btnRun').addEventListener('click', () => {
     if (task === '1') {
         // Početak 1. zadatka
         // 1. Zbrajanje brojeva: Zbroji A i B (konverzija u Number)
-        const abroj = number(a)
-        const bbroj = number(b)
+        const abroj = Number(a)
+        const bbroj = Number(b)
         rezultat = abroj + bbroj
 
 
@@ -25,63 +25,83 @@ document.getElementById('btnRun').addEventListener('click', () => {
         // Početak 2. zadatka
         // 2. Konkatenacija: Spoji A i B kao tekst (String)
 
+        const atekst = String(a)
+        const btekst = String(b)
+        rezultat = atekst + btekst
+
 
         // Kraj 2. zadatka
-        return
     }
 
     if (task === '3') {
         // Početak 3. zadatka
         // 3. Aritmetika i zagrade: Izračunaj (A + B) * C - D
+        const abroj = Number(a)
+        const bbroj = Number(b)
+        const cbroj = Number(c)
+        const dbroj = Number(d)
+        rezultat = (abroj + bbroj) * cbroj - dbroj
 
 
         // Kraj 3. zadatka
-        return
     }
 
     if (task === '4') {
         // Početak 4. zadatka
         // 4. Modulo operator: Ostatak pri dijeljenju A s B (A % B)
+        const abroj = Number(a)
+        const bbroj = Number(b)
+        rezultat = (abroj % bbroj)
 
 
         // Kraj 4. zadatka
-        return
     }
 
     if (task === '5') {
         // Početak 5. zadatka
         // 5. Stroga jednakost: Jesu li A i B identični po vrijednosti i tipu (A === B)?
+        const abroj = Number(a)
+        const bbroj = Number(b)
+        rezultat = (abroj === bbroj)
 
 
         // Kraj 5. zadatka
-        return
     }
 
     if (task === '6') {
         // Početak 6. zadatka
         // 6. Relacijski operatori: Je li zbroj A i B veći od umnoška C i D?
+        const abroj = Number(a)
+        const bbroj = Number(b)
+        const cbroj = Number(c)
+        const dbroj = Number(d)
+        rezultat = (abroj + bbroj) >= (cbroj+ dbroj)
 
 
         // Kraj 6. zadatka
-        return
     }
 
     if (task === '7') {
         // Početak 7. zadatka
         // 7. Logički AND (&&): Je li A pozitivno I istovremeno B parno?
+        const abroj = Number(a)
+        const bbroj = Number(b)
+        // A is positive AND B is even
+        rezultat = (abroj > 0) && (bbroj % 2 === 0)
+
+
 
 
         // Kraj 7. zadatka
-        return
     }
 
     if (task === '8') {
         // Početak 8. zadatka
         // 8. Logički OR (||): Je li barem jedno od polja C ili D prazan string?
+        rezultat = c==='' || d=== ''
 
 
         // Kraj 8. zadatka
-        return
     }
 
     if (task === '9') {
@@ -90,7 +110,6 @@ document.getElementById('btnRun').addEventListener('click', () => {
 
 
         // Kraj 9. zadatka
-        return
     }
 
     if (task === '10') {
@@ -99,7 +118,6 @@ document.getElementById('btnRun').addEventListener('click', () => {
 
 
         // Kraj 10. zadatka
-        return
     }
     if (task === '11') {
         // Početak 11. zadatka
